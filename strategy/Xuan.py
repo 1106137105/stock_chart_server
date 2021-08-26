@@ -7,7 +7,7 @@ class Xuan(Strategy):
 
     # 回測
     def backtest(self):
-        self.name = 'Xuan'
+        self.name = 'MACD穩定成長不異動'
         self.detail = '近10日最高價<近10日最低價*1.05及macd快線穿越慢線則多單進場,10%移動式停損'
 
         tmp_df = pd.DataFrame()
